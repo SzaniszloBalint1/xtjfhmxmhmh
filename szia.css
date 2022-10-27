@@ -1,0 +1,110 @@
+body {
+    background-image: url('League-of-Legends-Damage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+header{
+    background-color: black;
+    color:white;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50px;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+
+
+select{
+    background-color: white;
+    padding: 12px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:5px;
+    border: solid 1px darkred;
+    border: none;
+    border-bottom: solid 1px darkblue;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+
+}
+
+main{
+    
+    
+    min-height: 450px;
+    box-sizing: border-box;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+
+}
+main h2{
+    margin: 50px;
+    
+    color:gold;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+    
+
+}
+
+main form input[type=text]{
+    background-color: white;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:5px;
+    border: solid 1px darkred;
+    border: none;
+    border-bottom: solid 1px darkblue;
+    font-size:medium;
+}
+
+main form{
+    text-align: center;
+}
+
+main form input[type=text]::placeholder{
+    color:rgba(0, 0, 0, 0.712);
+    border:none;
+}
+
+main form input[type=text]::placeholder-shown{
+    border: solid 1px blueviolet;
+    border: none;
+    
+}
+main form input[type=submit]{
+    padding:10px;
+    color:darkred;
+    margin:10px;
+    padding:5px;
+    border:solid 2px darkred;
+
+}
+
+
+main form input[type=submit]:active{
+    color:blueviolet;
+    border: solid 2px blue;
+}
+main form input{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 5px;
+    padding: 8px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
